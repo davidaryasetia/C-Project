@@ -35,5 +35,6 @@ int main(){
     x << 3;
     cout << x << " <<= 3 ? " << x << "\n";
 
+
     return 0;
 }
