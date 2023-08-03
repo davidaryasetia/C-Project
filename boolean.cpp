@@ -17,7 +17,7 @@ int main(){
 
     if (age >= minAgeVote){
         notice = "Silahkan Voting";
-    } else {
+    } els1e {
         notice = "Maaf anda tidak boleh vooting";
     } 
     cout << notice;
