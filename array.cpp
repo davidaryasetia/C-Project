@@ -15,7 +15,7 @@ int main(){
     string cars[4] = {"Volvo", "BMW", "Ford", "Mazda"};
     cout << "Element Before : " << cars[1] << "\n";
     // Change array in element (refers to index number)
-    cars[1] = "Toyota";
+    cars[1] = "Toyota"; 
     cout << "Element After : " << cars[1] << "\n";
 
     cout << "======================================== \n";
