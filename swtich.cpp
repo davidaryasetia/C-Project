@@ -7,7 +7,7 @@ switch (expression){
     break;
     
     case y : 
-    // code blocl
+    // code block
     break;
 
     case z : 

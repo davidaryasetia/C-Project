@@ -4,14 +4,19 @@ syntax :
 variable = (condition) ? expressionTrue : expressionFalse;
 
 */
-#include <iostream> 
+
+#include <iostream>
 using namespace std;
 
-int main(){
+int main (){
     int time;
-    cout << "Masukkan Waktu : ";
+
+    cout << "Halo Masukkan Jam saat ini :";
     cin >> time;
-    string result = (time < 18) ? "Good Day" : "Good Evening";
-    cout << "Keterangan : " << result;
+    cout << "\n";
+    string waktu = (time > 18) ? "Good Evening" : "Good Day";
+    cout << "Waktu saat ini adalah : " << waktu;
     return 0;
+
+
 }
