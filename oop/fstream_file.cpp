@@ -1,0 +1,1 @@
+This is a test of fstream library with class ofstream (to create and write file)
