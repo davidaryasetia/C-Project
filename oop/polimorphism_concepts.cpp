@@ -68,6 +68,7 @@ int main (){
 
     // And the we want to call the name function its every object 
     myAnimal.animalSound();
+    
     myPig.animalSound();
     myDog.animalSound();
     myCat.animalSound();
