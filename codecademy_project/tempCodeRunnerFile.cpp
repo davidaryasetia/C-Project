@@ -1,0 +1,1 @@
+std::cin >> weight_item_earth;
