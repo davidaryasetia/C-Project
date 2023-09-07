@@ -49,7 +49,7 @@ int main (){
         break;
 
         case 6 : 
-        answer = "As I see it, yes.";
+        an  swer = "As I see it, yes.";
         break;
 
         case 7 :
