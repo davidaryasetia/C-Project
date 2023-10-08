@@ -46,5 +46,22 @@
     "xtr1common": "cpp",
     "xutility": "cpp"
   },
-  "C_Cpp.errorSquiggles": "disabled"
+  "C_Cpp.errorSquiggles": "disabled",
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "Project",
+      "username": "root",
+      "connectionTimeout": 1000,
+      "database": "RSUD_BANJAR",
+      "askForPassword": true
+    }
+  ]
 }

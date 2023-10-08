@@ -1,28 +1,25 @@
-// C++ Program test to check program 
+#include <cmath>
+#include <cstdio>
+#include <vector>
 #include <iostream>
+#include <algorithm>
+using namespace std;
 
-int main (){
-    // declare pin and tries 
-    int pin = 0;
-    int tries = 0;
+
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    int d;
+    long l;
+    char c;
+    float f;
+    double lf;
     
-    std::cout << "Welcome to the Bank of codecademy : \n";
-    std::cout << "Enter your pin number : ";
-    std::cin >> pin;
-    tries++;
-
-    while (pin != 12345 && tries < 3){
-        std::cout << "\n";
-        std::cout << "Your pin false \n";
-        std::cout << "Please enter your pin number again : ";
-        std::cin >> pin;
-        tries++;
-    }
-
-    if (pin == 12345){
-         std::cout << "Your Pin Accepted \n";
-    } else {
-    std::cout << "Your Account has been blocked \n";
-    }
+    cin >> d >> l >> c >> f >> lf;
+    cout << d << "\n";
+    cout << l << "\n";
+    cout << c << "\n";
+    cout << f << "\n";
+    cout << lf << "\n";
     return 0;
+    
 }
