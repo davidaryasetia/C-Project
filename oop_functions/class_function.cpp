@@ -8,7 +8,7 @@ class Car {
     string color;
     string type;
 
-    void description_car(string merk, string color, string type){
+    void description_car(string merk, string type, string color){
         cout << merk << " " << type << " " << color << "\n"; 
     }
 };
@@ -16,7 +16,8 @@ class Car {
 int main (){
     Car Vehicle;
     
-    Vehicle.description_car("BMW", "Red", "i5");
+    Vehicle.description_car("BMW", "i5", "Red");
+    Vehicle.description_car("Toyota", "Innova", "White");
     Vehicle.merk="Mitsubishi";
     Vehicle.color="Black";
     Vehicle.type="Pajero Sport";
