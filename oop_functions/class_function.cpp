@@ -7,17 +7,17 @@ class Car {
     string merk;
     string color;
     string type;
-
-    void description_car(string merk, string type, string color){
-        cout << merk << " " << type << " " << color << "\n"; 
-    }
+    double cc;
+    void description_car(string merk, string type, double cc, string color){
+        cout << merk << " " << type << " " << cc << " " << color << "\n"; 
+    } 
 };
 
 int main (){
     Car Vehicle;
     
-    Vehicle.description_car("BMW", "i5", "Red");
-    Vehicle.description_car("Toyota", "Innova", "White");
+    Vehicle.description_car("BMW", "i5", 1200, "Red");
+    Vehicle.description_car("Toyota", "Innova", 1000, "White");
     Vehicle.merk="Mitsubishi";
     Vehicle.color="Black";
     Vehicle.type="Pajero Sport";
