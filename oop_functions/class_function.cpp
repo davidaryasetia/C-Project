@@ -18,8 +18,9 @@ class Motorcycle {
     string merk;
     string color;
     string type;
+    double cc;
 
-    void description_motorcycle(string merk, string type, string color){
+    void description_motorcycle(string merk, string type, double cc, string color){
         cout << merk << " " << type << " " << color << "\n";
     }
 };
@@ -28,11 +29,11 @@ int main (){
     Car Vehicle_Car;
     Motorcycle Vehicle_Motor;
     
-    Vehicle.description_car("BMW", "i5", 1200, "Red");
-    Vehicle.description_car("Toyota", "Innova", 1000, "White");
-    Vehicle.merk="Mitsubishi";
-    Vehicle.color="Black";
-    Vehicle.type="Pajero Sport";
-    cout << Vehicle.merk << " " << Vehicle.type << " " << Vehicle.color << "\n";
+    Vehicle_Car.description_car("BMW", "i5", 1200, "Red");
+    Vehicle_Car.description_car("Toyota", "Innova", 1000, "White");
+    Vehicle_Car.merk="Mitsubishi";
+    Vehicle_Car.color="Black";
+    Vehicle_Car.type="Pajero Sport";
+    cout << Vehicle_Car.merk << " " << Vehicle_Car.type << " " << Vehicle_Car.color << "\n";
     return 0;
 }
