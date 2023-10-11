@@ -8,7 +8,7 @@ using namespace std;
 class Employee {
     // Set access specifiers to be protected
     protected :
-    int salary;
+    int Salary;
 };
 
 // Okay and then we want to make other class to inherited access from base class
@@ -18,11 +18,11 @@ class Employee_Salary : public Employee {
     public : 
     int bonus;
     void setSalary (int s){
-        salary = s;
+        Salary = s;
     };
 
     int getSalary (){
-        return salary;
+        return Salary;
     }
 // Don't forget to add semicolon 
 };

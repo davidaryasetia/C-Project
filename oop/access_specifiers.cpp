@@ -14,22 +14,40 @@ the public keyword is an access specifiers
 #include <string>
 using namespace std;
 
-class myClass {
+/*1. Bumpy Case -> adalah tata penulisan sebuah frasa dimana antar kata 
+dipisahkan dengan kapitalisasi.
+*/
+class MyClass {
     public :
     int myNum;
     string myString;
 
 };
 
+/*
+2. Snake Case adalah -> tata penulisan yang dipisahkan oleh underscrore
+*/
+class other_class {
+    public : 
+    int number;
+    string text;
+};
+
 
 int main (){
     // Create a class 
-    myClass myObj;
+    MyClass myObj;
+    other_class OtherClass;
 
     myObj.myNum = 15;
     myObj.myString = "Some text";
 
+    OtherClass.number = 20;
+    OtherClass.text = "Text Another";
+
+
     cout << myObj.myNum << "\n";
     cout << myObj.myString << "\n";
+    cout << OtherClass.number << " " << OtherClass.text << "\n";
     return 0;
 }
