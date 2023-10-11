@@ -16,8 +16,12 @@ class MyClass { // The class
 
 using namespace std;
 
+/*Snake Case adalah tata penulisan sebuah frasa dimana 
+antar kata dipisahkan oleh karakter underscro
+*/
+
 // Create a class 
-class myClass {
+class my_class {
     public : 
     int myNum;
     string myString;
@@ -26,7 +30,7 @@ class myClass {
 // Make a main program 
 int main(){
     // Create an object 
-    myClass myObj;
+    my_class myObj;
 
     // Fill of variable attributes 
     myObj.myNum = 15;
