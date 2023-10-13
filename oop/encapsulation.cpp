@@ -17,13 +17,15 @@ string merk;
 string type;
 string color;
 double price;
+int supply;
 
 public : 
-void setMotorcycle(string merk_motor, string type_motor, string color_motor, double price_motor){
+void setMotorcycle(string merk_motor, string type_motor, string color_motor, double price_motor, int supply){
     merk = merk_motor;
     type = type_motor;
     color = color_motor;
     price = price_motor;
+    supply = supply_motor;
 };
 
 void getMotorcycle(){
@@ -32,6 +34,7 @@ void getMotorcycle(){
     cout << "Type Motor : " << type << "\n";
     cout << "Color Motor : " << color << "\n";
     cout << "Price Motor : " << price << "\n";
+    cout << "Supply Motor : " << supply << "\n";
 };
 
 };
@@ -40,7 +43,7 @@ void getMotorcycle(){
 int main (){
     // make a class and object 
     Motorcycle Asset_Motorcycle;
-    Asset_Motorcycle.setMotorcycle("Yamaha", "Rx King", "Red", 20500500.500);
+    Asset_Motorcycle.setMotorcycle("Yamaha", "Rx King", "Red", 20500500.500, 50);
     Asset_Motorcycle.getMotorcycle();
     return 0;
 }
