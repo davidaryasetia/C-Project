@@ -5,30 +5,40 @@ that sensitive data hidden from users
 */
 
 // Example to access private attribute, to use public "get" and "set" method
+// This code is train encapsulation with use case of motorcycle 
 #include <iostream>
+#include <string>
 using namespace std;
 
-class Employee {
-    private : 
-    int salary; // make a private attribut 
+// make a class of motorcycle with attribute of merk, type, color, price
+class Motorcycle {
+private : 
+string merk;
+string type;
+string color;
+double price 
 
-    // Make a public getter and setter 
-    public : 
-    void setSalary (int x){ // declare se function
-        salary = x;
-    }
+public : 
+void setMotorcycle(string merk_motor, string type_motor, string color_motor, double price_motor){
+    merk = merk_motor;
+    type = type_motor;
+    color = color_motor;
+    price = price_motor;
+}
 
-    int getSalary (){
-        return salary;
-    }
-};
+void getMotorcycle(){
+    cout << "Merk Motor : " << merk << "\n";
+    cout << "Type Motor : " << type << "\n";
+    cout << "Color Motor : " << color << "\n";
+    cout << "Price Motor : " << price << "\n";
+}
 
-// Call and print salary of employee 
+// Make a main program 
 int main (){
-    Employee myObj;
+    // make a class and object 
+    Motorcycle Asset_Motorcycle;
 
-    // Fill salary with set method 
-    myObj.setSalary (400000);
-    cout << myObj.getSalary();
+    Asset_Motorcycle.setMotorcycle("Yamaha", "Rx King", "Red", 20500500.500);
+    Asset_Motorcycle.getMotorcycle();
     return 0;
 }
