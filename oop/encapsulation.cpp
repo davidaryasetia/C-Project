@@ -65,7 +65,7 @@ class Customers{
 int main (){
     // make a class and object 
     Motorcycle Asset_Motorcycle;
-    Customers Biodata_Customers;
+    Customers Bi    odata_Customers;
     // Set function
     
     Asset_Motorcycle.setMotorcycle("Yamaha", "Rx King", "Red", 20500500.500, 50);

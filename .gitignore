@@ -1,0 +1,9 @@
+# Ignore all files with .log extension
+*.log
+
+# Ignore file secret1.txt and secret2.txt
+/secret1.txt
+/secret2.txt
+
+# Ignore directory secret_code
+secret_code/
