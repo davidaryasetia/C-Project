@@ -5,3 +5,5 @@
 /secret1.txt
 /secret2.txt
 
+# Ignore directory secret_code
+secret_code/
