@@ -57,11 +57,10 @@
       "server": "localhost",
       "port": 3306,
       "driver": "MySQL",
-      "name": "Project",
+      "name": "northwind",
+      "database": "northwind",
       "username": "root",
-      "connectionTimeout": 1000,
-      "database": "RSUD_BANJAR",
-      "askForPassword": true
+      "connectionTimeout": 5000
     }
   ]
 }
