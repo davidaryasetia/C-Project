@@ -1,11 +1,12 @@
-// Assignment Operator 
+// Assignment Operator
 #include <iostream>
 using namespace std;
-
-int main(){
+// test
+int main()
+{
     int x;
 
-    // Membuat input number 
+    // Membuat input number
     cout << "Masukkan Angka = ";
     cin >> x;
 
@@ -15,7 +16,7 @@ int main(){
     cout << x << " + 3 = " << x << "\n";
 
     x -= 3;
-    cout << x << " - 3 = " <<  x << "\n";
+    cout << x << " - 3 = " << x << "\n";
 
     x *= 3;
     cout << x << " * 3 = " << x << "\n";
@@ -24,7 +25,7 @@ int main(){
     cout << x << " / 3 = " << x << "\n";
 
     x %= 3;
-    cout << x << " % 3 = " <<  x << "\n";
+    cout << x << " % 3 = " << x << "\n";
 
     x |= 3;
     cout << x << " | 3 = " << x << "\n";
@@ -34,7 +35,6 @@ int main(){
 
     x << 3;
     cout << x << " <<= 3 ? " << x << "\n";
-
 
     return 0;
 }

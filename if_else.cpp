@@ -14,18 +14,24 @@ if (condition1){
 #include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
     int time;
 
     cout << "Masukkan Waktu pukul berapa hari ini : ";
     cin >> time;
 
     cout << "Keterangan : \n";
-    if (time < 10 ){
+    if (time < 10)
+    {
         cout << "Good Morning";
-    } else if (time < 20){
-        cout << "Good Day"; 
-    } else {
+    }
+    else if (time < 20)
+    {
+        cout << "Good Day";
+    }
+    else
+    {
         cout << "Good Evening";
     }
 

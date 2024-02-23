@@ -1,17 +1,18 @@
 /*
-Modify the Pointer Value => You can also change the pointer value. But note that wil also change value of the original variabel 
+Modify the Pointer Value => You can also change the pointer value. But note that wil also change value of the original variabel
 */
 
-// Example to modify the Pointer 
+// Example to modify the Pointer
 #include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
     string food = "Pizza";
-    string* myPointer = &food;
+    string *myPointer = &food;
 
     // Output value of food (Pizza)
-    cout << "1. " <<food << "\n";
+    cout << "1. " << food << "\n";
 
     // Output memory address of food (.....)
     cout << "2. " << &food << "\n";
@@ -22,10 +23,9 @@ int main(){
     // Change value to the pointer in Hamburger
     *myPointer = "Hamburger";
 
-    // Output new value of the pointer Hamburger 
+    // Output new value of the pointer Hamburger
     cout << "4. " << *myPointer << "\n";
 
     // Output the new value of food variable in Hamburger
     cout << "5. " << food << "\n";
-
 }

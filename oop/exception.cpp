@@ -1,13 +1,13 @@
 /*
-C++ try and catch -> exception handling in C++ consist 3 keyword : try throw catch
+C++ catch and catch -> exception handling in C++ consist 3 keyword : catch throw catch
 
-try -> statement allow  to define a block code to be tested for error while it is being excecuted
+catch -> statement allow  to define a block code to be tested for error while it is being excecuted
 throw -> throw keyword when problem is detected, which let us a custom keywords
-catch -> statement allows you to define a block code to be executed, if an error occur in the try block
+catch -> statement allows you to define a block code to be executed, if an error occur in the catch block
 
-Syntax try and catch : 
-try {
-    // Block of code to try
+Syntax catch and catch :
+catch {
+    // Block of code to catch
     throw exception;
 }
 catch(){
@@ -15,22 +15,28 @@ catch(){
 }
 */
 
-// Consider following try and catch 
+// Consider following catch and catch
 #include <iostream>
 using namespace std;
 
-// make a main program 
-int main (){
-    // declare and make try catch syntax : 
-    try {
+// make a main program
+int main()
+{
+    // declare and make trying to catching syntax :
+    catch
+    {
         int age = 19;
-        if (age >= 18){
+        if (age >= 18)
+        {
             cout << "Access Granted - Youre old enough";
-        } else {
+        }
+        else
+        {
             throw 505;
         }
     }
-    catch (int number){
+    catch (int number)
+    {
         cout << "Access Denied - Youre not enough in your age \n";
         cout << "Your Age still : " << number;
     }

@@ -3,22 +3,27 @@
 using namespace std;
 
 // Make a Base class myClass (parent)
-class myClass {
-    public : 
-    void greeting (){
+class myClass
+{
+public:
+    void greeting()
+    {
         cout << "Hey My Name is David \n";
     }
 };
 
-class myChild : public myClass {
+class myChild : public myClass
+{
 };
 
-class myGrandParent : public myChild {
+class myGrandParent : public myChild
+{
 };
 
-// make a main program to make a object class 
-int main (){
-    // make an object 
+// make a main program to make a object class
+int main()
+{
+    // make an object
     myGrandParent myFamily;
 
     // call the method function in base class myClass (parent)

@@ -11,13 +11,14 @@ which of the four school Houses each new student belong most to :
 #include <iostream>
 #include <string>
 
-int main (){
-    // declare 4 variable 
-    int gryffindor, hufflepuff, ravenclaw, slytherin;
+int main()
+{
+    // declare 4 variable
+    int gryffindor, /*  */ hufflepuff, ravenclaw, slytherin;
     int answer1, answer2, answer3, answer4;
     std::cout << "==============================\n";
     std::cout << "Program The Sorting Hat Quiz! \n";
-    
+
     // question 1
     std::cout << "Q1) When I'm dead, I want people to remember me as : \n";
     std::cout << "1) The Good \n";
@@ -29,15 +30,24 @@ int main (){
     std::cout << "\n";
 
     // make conditional logic 1 for answer question 1
-    if (answer1 == 1){
+    if (answer1 == 1)
+    {
         hufflepuff++;
-    } else if (answer1 == 2){
+    }
+    else if (answer1 == 2)
+    {
         slytherin++;
-    } else if (answer1 == 3){
+    }
+    else if (answer1 == 3)
+    {
         ravenclaw++;
-    } else if (answer1 == 4){
+    }
+    else if (answer1 == 4)
+    {
         gryffindor++;
-    } else {
+    }
+    else
+    {
         std::cout << "Invalid input \n";
     }
 
@@ -50,13 +60,18 @@ int main (){
     std::cout << "\n";
 
     // make condition logic for answer question 2
-    if (answer2 == 1){
+    if (answer2 == 1)
+    {
         gryffindor++;
         ravenclaw++;
-    } else if (answer2 == 2){
+    }
+    else if (answer2 == 2)
+    {
         hufflepuff++;
         slytherin++;
-    } else {
+    }
+    else
+    {
         std::cout << "Invalid input \n";
     }
 
@@ -71,15 +86,24 @@ int main (){
     std::cout << "\n";
 
     // make logic question for answer question 3
-    if (answer3 == 1){
+    if (answer3 == 1)
+    {
         slytherin++;
-    } else if (answer3 == 2){
+    }
+    else if (answer3 == 2)
+    {
         hufflepuff++;
-    } else if (answer3 == 3){
+    }
+    else if (answer3 == 3)
+    {
         ravenclaw++;
-    } else if (answer3 == 4){
+    }
+    else if (answer3 == 4)
+    {
         gryffindor++;
-    } else {
+    }
+    else
+    {
         std::cout << "Invalid input \n";
     }
 
@@ -93,38 +117,51 @@ int main (){
     std::cin >> answer4;
     std::cout << "\n";
 
-    if (answer4 == 1){
+    if (answer4 == 1)
+    {
         hufflepuff++;
-    } else if (answer4 == 2){
+    }
+    else if (answer4 == 2)
+    {
         slytherin++;
-    } else if (answer4 == 3){
+    }
+    else if (answer4 == 3)
+    {
         gryffindor++;
-    } else if (answer4 == 4){
+    }
+    else if (answer4 == 4)
+    {
         ravenclaw++;
-    } else {
+    }
+    else
+    {
         std::cout << "Invalid input \n";
     }
-    
+
     std::string house;
     int max = 0;
 
-    // make a logic conditional for search max output 
-    if (gryffindor > max){
+    // make a logic conditional for search max output
+    if (gryffindor > max)
+    {
         max = gryffindor;
         house = "Gryffindor";
-    } 
+    }
 
-    if (hufflepuff > max){
+    if (hufflepuff > max)
+    {
         max = hufflepuff;
         house = "Hufflepuff";
     }
 
-    if (ravenclaw > max){
+    if (ravenclaw > max)
+    {
         max = ravenclaw;
         house = "Ravenclaw";
     }
 
-    if (slytherin > max){
+    if (slytherin > max)
+    {
         max = slytherin;
         house = "Slytherin";
     }
